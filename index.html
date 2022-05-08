@@ -8,15 +8,22 @@
     <title>Code Quiz</title>
 </head>
 <body>
-    <div class="start-btn"><button>Start Quiz</button></div>
-    <div class="rule_box">
-        <div class="rule_title">Rules</div>
-            <div class="rule">1. When start is clicked, timer will start.</div>
-            <div class="rule">2. Once answer is selected, next questions will appear.</div>
-            <div class="rule">3. If answer is incorrect, time will be deducted.</div>
-            <div class="rule">4. Once all questions are answered, timer will end. </div>
-            <div class="rule">5. Enter initials to be saved in high scores. (More time = higher score!) </div>
+    
+    <div id="timeLeft"></div>
+    <div id="content"></div>
+    <div id="questionContainer">
+        <h1>JavaScript Quiz</h1>
+        <div class="start-btn"><button>Start Quiz</button></div>
+        <div class="rule_box">
+            <div class="rule_title">Rules</div>
+                <div class="rule">1. When start is clicked, timer will start.</div>
+                <div class="rule">2. Once answer is selected, next questions will appear.</div>
+                <div class="rule">3. If answer is incorrect, time will be deducted by 10 seconds.</div>
+                <div class="rule">4. Once all questions are answered, timer will end. </div>
+                <div class="rule">5. Enter initials to be saved in high scores. (More time = higher score!) </div>
+        </div>
     </div>
-
 </body>
+
+<script src="./assets/script.js"></script>
 </html>
